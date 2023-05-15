@@ -55,5 +55,5 @@ module "blog_sg" {
   egress_cidr_blocks = ["0.0.0.0/0" ]
   
   name = "blog_new"
-  vpc_id = module.vpc.public_subnets[0]
+  vpc_id = module.vpc.public_subnets[2]
 }
